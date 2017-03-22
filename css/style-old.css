@@ -1,0 +1,241 @@
+* {
+	padding: 0;
+	margin:0;
+}
+body {
+	background: #FFF;
+	margin: -1px;
+}
+
+
+/* fuentes
+font-family: 'Raleway', sans-serif;
+font-family: 'Architects Daughter', cursive;
+font-family: 'Yellowtail', cursive;
+font-family: 'Nothing You Could Do', cursive;
+font-family: 'Caveat', cursive;
+/* FIN > fuentes*/
+
+/*	header-modificaciones*/
+.head {
+	position: fixed;
+    width: 100%;
+    z-index: 99;
+    border: 1px solid rgba(255, 255, 255, 0.07);
+}
+.head .navbar {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background: #0c0c0c;
+}
+.head .navbar h1{
+	-webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+.head .navbar h1:hover{
+	-webkit-transform: rotateY(360deg);
+          transform: rotateY(360deg);
+}
+.head .navbar h1 {
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-size: 35px;
+	padding: 10px;
+	margin-top: -4px;
+
+}
+.head .navbar h1 b {
+	color: rgb(24, 220, 31);
+	font-size: 45px;
+	font-family: 'Raleway', sans-serif;
+}
+.head .navbar ul{
+	display: flex;
+}
+.head .navbar ul li{
+	list-style: none;
+	transition: all .5s ease-in-out;
+	padding: 15px;
+}
+.head .navbar ul li:hover{
+	transform: scale(1.3);
+}
+.head .navbar ul li a {
+	text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    color: #CCC;
+    
+    text-transform: uppercase;
+    transition: all .5s ease-in-out;
+}
+.head .navbar ul li a:hover {
+	color: #18dc1f;;
+}
+/*	FIN > header-modificaciones*/
+
+/*intro-modificaciones*/
+
+.intro{
+	display: flex;
+	justify-content: flex-end;
+	background-image: url(../img/build-deg1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height:650px;
+}
+.intro h2,h4 {
+	 font-family: 'Raleway', sans-serif;
+	 color: #0c0c0c;
+	 text-transform: capitalize;
+	 display: none;
+}
+.intro h2 {
+    font-size: 85px;
+    padding-top: 219px;
+    margin-right: 46px;
+}
+/* span.modifiaciones*/
+.intro div {
+    margin-top: 18px;
+    margin-bottom: 31px; }
+    .intro div span {
+      display: none;
+      color: #FFF;
+      background: rgba(12, 12, 12, 0.68);
+      border-radius: 50%;
+      height: 45px;
+      width: 45px;
+      font-size: 24px;
+      margin-right: 10px;
+      transform: scale(1);
+      transition: scale .5s ease-in-out;
+      -moz-transition: scale .5s ease-in-out;
+      -webkit-transition: scale .5s ease-in-out;
+      transition: background .25s ease-in-out;
+      -moz-transition: background .25s ease-in-out;
+      -webkit-transition: background .25s ease-in-out; }
+      .intro div span:hover {
+        background: rgba(24, 220, 31, 0.76);
+    transform: scale(1.1);
+    transition: 0.5s; }
+      .intro div span a {
+        color: #FFF; }
+      .intro div span i {
+        margin-left: 12px;
+        margin-top: 10px; }
+/*FIN > span-modificaciones*/
+.intro h4 {
+	font-size: 22px;
+	color: #0c0c0c;
+}
+
+.intro .name {
+	padding: 50px 0;
+}
+
+/* FIN > intro-modificaciones*/
+
+/*separador*/
+.separador {
+	height: 30px;
+	background:#fff;
+}
+/* FIN > separador*/
+
+
+/*soy-modificaciones*/
+
+.soy {
+	display: flex;
+	justify-content: center;
+	background-image: url(../img/street2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	background-attachment: fixed;
+	-webkit-box-shadow: inset 0 0 1em #ababab;
+	-moz-box-shadow: inset 0 0 1em #ababab;
+	box-shadow: inset 0 0 1em #ababab;
+}
+.soy .wrap {
+	display: flex;
+    justify-content: flex-end;
+    padding: 154px;
+    margin-right: 20px;
+    margin-top: 41px;
+}
+
+.soy .parrafo{
+	display: inline-block;
+    width: 50%;
+    background: rgba(0, 0, 0, 0.62);
+    border-radius: 6px;
+    padding: 18px;
+    color: #fff;
+}
+.soy .parrafo p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 22px;
+}
+
+/* FIN >soy-modificaciones*/
+
+
+
+
+/*background-modificaciones*/
+
+.background {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url(../img/build2.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 600px;
+}
+.background .logos {
+
+}
+.background .logos img {
+	height: 70px;
+	filter: saturate(0.5);
+}
+.background h2,h4 {
+	font-family: 'Caveat', cursive;
+	color: #FFF;
+}
+.background h2 {
+	font-size: 60px;
+    margin-left: -71px;
+    font-weight: 400;
+}
+.background h4 {
+	font-size: 30px;
+
+}
+.back {
+	margin-right: 12px;
+    margin-top: 20px;
+    padding-bottom: 127px;
+    width: 50%;
+
+}
+/* FIN > background-modificaciones*/
+
+
+/*footer-modificaciones*/
+.foot {
+	background:black;
+	display: flex;justify-content: center;
+}
+.foot small {
+	    padding: 15px;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+/*FIN > footer-modificaciones*/
+
+
